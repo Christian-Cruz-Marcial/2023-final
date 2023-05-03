@@ -15,7 +15,7 @@
     width: auto;
  }
  body{
-    background-image: linear-gradient(rgb(50,180,210), rgb(139, 10, 174));
+    background-image: linear-gradient(rgb(50,180,210), rgb(140, 10, 175));
  }
  .topnav {
     overflow: hidden;
@@ -54,4 +54,25 @@
   .topnav a.active {
     background-color: rgb(155, 2, 220);
     color: white;
+  }
+
+  div.card-body{
+    text-align: center;
+    font-size: large;
+  }
+  div.card{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 2px double black;
+    border-radius: 15px;
+  }
+  #buy{
+    border: none;
+    color: black;
+    text-align: center;
+    background-color: aqua;
+    text-decoration: none;
+  }
+  #shoe{
+    border: 5px solid rgb(58, 58, 58);
   }
