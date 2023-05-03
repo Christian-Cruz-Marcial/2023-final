@@ -9,11 +9,19 @@
     margin-left: 250px;
     margin-bottom: 0px;
  }
+ img#banner-small{
+    height: 200px;
+    width: 1200px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+
+ }
  div#banner{
     background-size:auto;
     height: auto;
     width: auto;
  }
+ 
  body{
     background-image: linear-gradient(rgb(50,180,210), rgb(140, 10, 175));
  }
