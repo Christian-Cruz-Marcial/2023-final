@@ -10,10 +10,12 @@
     margin-bottom: 0px;
  }
  div#banner{
-    background-color: rgb(50,180,210);
     background-size:auto;
     height: auto;
     width: auto;
+ }
+ body{
+    background-image: linear-gradient(rgb(50,180,210), rgb(139, 10, 174));
  }
  .topnav {
     background-color: rgb(50, 180, 210);
@@ -30,8 +32,20 @@
     font-size: 17px;
     border: 1px black solid;
   }
-  .topnav input{
-    
+  .topnav input[type=text]{
+    position: relative;
+    float: left;
+    padding: 6px;
+    margin-top: 32px;
+    margin-left: 32px;
+  }
+  .topnav img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 5px;
+    background-color: blanchedalmond;
   }
   .topnav a:hover {
     background-color: #ddd;
