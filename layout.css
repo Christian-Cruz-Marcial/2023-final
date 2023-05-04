@@ -84,3 +84,16 @@
   #shoe{
     border: 5px solid rgb(58, 58, 58);
   }
+  table{
+    text-align: left;
+    position: relative;
+    transform: translate(400px);
+    color: white;
+  }
+  h1{
+    text-align: center;
+    position: relative;
+    border-bottom: 5px solid black;
+    background-color: bisque;
+    border-radius: 5px;
+  }
