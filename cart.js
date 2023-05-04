@@ -14,7 +14,6 @@ function calcCart() {
     var cart = document.forms.cart;
     var insuranceCost = document.querySelector('[name="insurance"]:checked').value;
     var shoeCost = document.querySelectorAll('[name="shoeCost"]').value;
-    cart.elements.cartTotal.value = formatUSCurrency(orderCost);
 
    var shipCost = document.querySelector('input[name="shipping"]:checked').value;
    cart.elements.shippingCost.value = formatNumber(shipCost);
