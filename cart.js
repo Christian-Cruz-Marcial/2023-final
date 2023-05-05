@@ -16,8 +16,8 @@ function calcCart() {
     var shoeCost = document.querySelectorAll('[name="shoeCost"]').value;
 
    var shipCost = document.querySelector('input[name="shipping"]:checked').value;
-   cart.elements.shippingCost.value = formatNumber(shipCost);
-   cart.elements.cartTotal.value = formatNumber(shoeCost+shipCost+insuranceCost, 2);
+   const sum = shipCost + shoeCost + insuranceCost;
+   
 }
 function formatNumber(val, decimals) {
     return val.toLocaleString(undefined, {minimumFractionDigits: decimals, 
